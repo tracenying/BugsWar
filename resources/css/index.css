@@ -277,13 +277,13 @@ top: 2px;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 
-@media only screen and (max-device-width:800px) {
+@media only screen and (max-device-width:1024px) {
 
 #group1 #mainbug {
     position: absolute;
     top: 70%;
     left: 40%; 
-    max-width: 700px;  
+    max-width: 500px;  
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
@@ -291,14 +291,13 @@ top: 2px;
     position: absolute;
     top: 30%;
     left: 20%;
-    max-width: 500px;
+    max-width: 300px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 
 }
 
-}
 
 @media only screen and (max-device-width:2000px) {
 
@@ -312,8 +311,9 @@ top: 2px;
 }
 #group1 #subbug {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 20%;
+    max-width: 500px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
