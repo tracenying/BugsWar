@@ -288,9 +288,7 @@ h1 {
 
 
 @media only screen and (max-width:1100px) {
-#group1 {
-top: 3px;
-}
+
 #group1 #mainbug {
     position: absolute;
     top: -8%;
