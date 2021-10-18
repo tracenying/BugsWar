@@ -215,11 +215,13 @@ h1 {
 #group1 {
     z-index: 2;
     /* slide over group 2 */
-    top: -0.5px;
+    
+    margin: auto;
+    max-width: 1920px;
+    max-height: 1080px;
 }
 #group1 .parallax__layer--landinglast{
-    margin: auto;
-    max-width: 1950px;
+    width: 1660px;
     background-image: url(../images/bgsky.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -228,8 +230,7 @@ h1 {
 
 
 #group1 .parallax__layer--deep {
-    margin: auto;
-    max-width: 1950px;
+     width: 1840px;
     background-image: url(../images/treebg1.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -238,8 +239,7 @@ h1 {
 }
 
 #group1 .parallax__layer--back {
-    margin: auto;
-    max-width: 2090px;
+    width: 1730px;
     background-image: url(../images/smoke1.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -248,8 +248,6 @@ h1 {
 }
 
 #group1 .parallax__layer--base {
-    margin: auto;
-    max-width: 2200px;
     background-image: url(../images/midbg.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -257,8 +255,7 @@ h1 {
 }
 
 #group1 .parallax__layer--fore {
-    margin: auto;
-    max-width: 1950px;
+    width: 1770px;
     background-image: url(../images/treebg2.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -270,7 +267,7 @@ h1 {
 
 #group1 #mainbug {
     position: absolute;
-    max-width: 800px;
+    max-width: 600px;
     top: 10%;
     left: 70%;   
     -webkit-animation: sway 6s 0.1s infinite alternate;
@@ -278,22 +275,43 @@ h1 {
 }
 #group1 #subbug {
     position: absolute;
-    max-width: 400px;
+    max-width: 300px;
     top: 10%;
     left: 20%;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (min-width:100px) and(max-width:800px) {
+
+#group1 #mainbug {
+    position: absolute;
+    top: 40%;
+    left: 45%; 
+    max-width: 200px;  
+    -webkit-animation: sway 6s 0.1s infinite alternate;
+        cubic-bezier(0.455, 0.03, 0.515, 0.655);
+}
+#group1 #subbug {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    max-width: 200px;
+    -webkit-animation: sway 6s 0.1s infinite alternate;
+        cubic-bezier(0.455, 0.03, 0.515, 0.655);
+}
+
+}
+
+@media only screen and (min-width:800px) and (max-width:1100px) {
 #group1 {
 top: 3px;
 }
 #group1 #mainbug {
     position: absolute;
-    top: 70%;
+    top: 40%;
     left: 45%; 
-    max-width: 500px;  
+    max-width: 400px;  
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
@@ -301,7 +319,7 @@ top: 3px;
     position: absolute;
     top: 30%;
     left: 20%;
-    max-width: 250px;
+    max-width: 200px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
@@ -309,21 +327,21 @@ top: 3px;
 }
 
 
-@media only screen and (min-width:1025px) and (max-width:2000px) {
+@media only screen and (min-width:1100px) and (max-width:1500px) {
 
 #group1 #mainbug {
     position: absolute;
     top: 40%;
     left: 70%;  
-    max-width: 600px;
+    max-width: 500px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 #group1 #subbug {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 20%;
-    max-width: 300px;
+    max-width: 250px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
@@ -333,12 +351,13 @@ top: 3px;
 #group2 {
     z-index: 3;
     /* slide under groups 1 and 3 */
+    margin: auto;
+    max-width: 1920px;
+    max-height: 1080px;
 
 }
 
 #group2 .parallax__layer--base {
-    margin: auto;
-    max-width: 2200px;
     background-image: url(../images/aboutmidbg.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -346,7 +365,6 @@ top: 3px;
 }
 
 #group2 .parallax__layer--fore {
-    margin: auto;
     text-align: center;
     color: white;
 
@@ -375,7 +393,7 @@ top: 3px;
     max-width: 600px;
 }
 
-@media only screen and (min-device-width:2200px) {
+@media only screen and (min-width:2200px) {
 #group2 .parallax__layer--base {
     background-image: url(../images/aboutmidbg.png);
     background-repeat: no-repeat;
@@ -385,7 +403,7 @@ top: 3px;
 }
 }
 
-@media only screen and (max-device-width:1024px) {
+@media only screen and (max-width:1024px) {
 
 #group2 {
     z-index: 3;
@@ -418,7 +436,7 @@ top: 3px;
 
 #group3 {
     z-index: 4;
-    margin-top: -10px;
+  
     /* slide over group 2 and 4 */
 }
 
@@ -428,30 +446,34 @@ top: 3px;
 
 #group4 {
     z-index: 2;
-    margin-top: -45px; 
     /* slide under group 3 and 5 */
 }
 
 #group4 .parallax__layer--back {
-    
+   background: #21165c;
 }
 
 #group4 .parallax__layer--base {
-    background: #21165c;
+
 }
+
 
 #group5 {
     z-index: 3;
     /* slide over group 4 and 6 */
+   
 }
 
 #group5 .parallax__layer--base {
     background: #6a27c2;
 }
-
+#group5 .parallax__layer--fore {
+    
+}
 #group6 {
     z-index: 2;
     /* slide under group 5 and 7 */
+    
 }
 
 #group6 .parallax__layer--back {
@@ -461,6 +483,7 @@ top: 3px;
 #group7 {
     z-index: 3;
     /* slide over group 7 */
+    
 }
 
 #group7 .parallax__layer--base {
