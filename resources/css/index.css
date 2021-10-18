@@ -1,20 +1,15 @@
 /* General styles
   --------------------------------------------- */
 
-body {
+body{
     font: 100% / 1.5 Sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(../images/bgsky.png);
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-repeat: no-repeat;
-
+    background: #213c2c;
 }
-
+div{
+    padding: 0;
+}
 #bwmenu {
     width: 100%;
     height: 60px;
@@ -220,14 +215,21 @@ h1 {
 #group1 {
     z-index: 2;
     /* slide over group 2 */
-top: 2px;
+    top: -0.5px;
 }
 #group1 .parallax__layer--landinglast{
-    
+    margin: auto;
+    max-width: 1950px;
+    background-image: url(../images/bgsky.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 
 #group1 .parallax__layer--deep {
+    margin: auto;
+    max-width: 1950px;
     background-image: url(../images/treebg1.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -236,6 +238,8 @@ top: 2px;
 }
 
 #group1 .parallax__layer--back {
+    margin: auto;
+    max-width: 2090px;
     background-image: url(../images/smoke1.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -244,6 +248,8 @@ top: 2px;
 }
 
 #group1 .parallax__layer--base {
+    margin: auto;
+    max-width: 2200px;
     background-image: url(../images/midbg.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -251,6 +257,8 @@ top: 2px;
 }
 
 #group1 .parallax__layer--fore {
+    margin: auto;
+    max-width: 1950px;
     background-image: url(../images/treebg2.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -270,7 +278,7 @@ top: 2px;
 }
 #group1 #subbug {
     position: absolute;
-    max-width: 500px;
+    max-width: 400px;
     top: 10%;
     left: 20%;
     -webkit-animation: sway 6s 0.1s infinite alternate;
@@ -278,12 +286,36 @@ top: 2px;
 }
 
 @media only screen and (max-device-width:1024px) {
-
+#group1 {
+top: 3px;
+}
 #group1 #mainbug {
     position: absolute;
     top: 70%;
-    left: 40%; 
+    left: 45%; 
     max-width: 500px;  
+    -webkit-animation: sway 6s 0.1s infinite alternate;
+        cubic-bezier(0.455, 0.03, 0.515, 0.655);
+}
+#group1 #subbug {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    max-width: 250px;
+    -webkit-animation: sway 6s 0.1s infinite alternate;
+        cubic-bezier(0.455, 0.03, 0.515, 0.655);
+}
+
+}
+
+
+@media only screen and (min-device-width:1025px) and (max-device-width:2000px) {
+
+#group1 #mainbug {
+    position: absolute;
+    top: 40%;
+    left: 70%;  
+    max-width: 600px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
@@ -298,28 +330,6 @@ top: 2px;
 
 }
 
-
-@media only screen and (max-device-width:2000px) {
-
-#group1 #mainbug {
-    position: absolute;
-    max-width: 700px;
-    top: 40%;
-    left: 40%;  
-    -webkit-animation: sway 6s 0.1s infinite alternate;
-        cubic-bezier(0.455, 0.03, 0.515, 0.655);
-}
-#group1 #subbug {
-    position: absolute;
-    top: 30%;
-    left: 20%;
-    max-width: 500px;
-    -webkit-animation: sway 6s 0.1s infinite alternate;
-        cubic-bezier(0.455, 0.03, 0.515, 0.655);
-}
-
-}
-
 #group2 {
     z-index: 3;
     /* slide under groups 1 and 3 */
@@ -327,6 +337,8 @@ top: 2px;
 }
 
 #group2 .parallax__layer--base {
+    margin: auto;
+    max-width: 2200px;
     background-image: url(../images/aboutmidbg.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -406,6 +418,7 @@ top: 2px;
 
 #group3 {
     z-index: 4;
+    margin-top: -10px;
     /* slide over group 2 and 4 */
 }
 
@@ -415,11 +428,16 @@ top: 2px;
 
 #group4 {
     z-index: 2;
+    margin-top: -45px; 
     /* slide under group 3 and 5 */
 }
 
 #group4 .parallax__layer--back {
     
+}
+
+#group4 .parallax__layer--base {
+    background: #21165c;
 }
 
 #group5 {
@@ -442,7 +460,6 @@ top: 2px;
 
 #group7 {
     z-index: 3;
-    height: 600px;
     /* slide over group 7 */
 }
 

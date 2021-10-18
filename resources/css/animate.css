@@ -1,6 +1,6 @@
 /* leaf animations */
 
-#leaves {position:relative;top:-100px;width:100%;text-align: right;}
+#leaves {position:relative;top:-100px;width:100%;text-align: center;z-index: 6;}
 
 #leaves i {
     display: inline-block;
