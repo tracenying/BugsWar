@@ -285,7 +285,7 @@ h1 {
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 
-@media only screen and (max-device-width:1024px) {
+@media only screen and (max-width:1024px) {
 #group1 {
 top: 3px;
 }
@@ -309,7 +309,7 @@ top: 3px;
 }
 
 
-@media only screen and (min-device-width:1025px) and (max-device-width:2000px) {
+@media only screen and (min-width:1025px) and (max-width:2000px) {
 
 #group1 #mainbug {
     position: absolute;
