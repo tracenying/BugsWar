@@ -12,7 +12,7 @@ div{
 }
 #bwmenu {
     width: 100%;
-    height: 60px;
+    max-height: 60px;
     top: 0;
     position: fixed;
     z-index: 100;
@@ -22,7 +22,7 @@ div{
 }
 
 #bwmenu h1 {
-    display: none;
+   
 }
 
 #bwmenu ul {
@@ -45,18 +45,21 @@ div{
     color: #a53e4f;
     transition: 1s;
 }
+#topbar {
+   
+}
 
-#playnow {
-    margin: auto;
+#playnow {  
+    margin-left: 70%;
     width: 200px;
-    height: 200px;
-    display: block;
-
+    height: 150px;
 }
+
 #playnow img{
-    height: 200px;
+    height: 150px;
 
 }
+
 
 
 
@@ -109,7 +112,7 @@ h1 {
     top: 25%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    max-width: 600px;
+    max-width: 450px;
 }
  
 
@@ -217,11 +220,12 @@ h1 {
     /* slide over group 2 */
     
     margin: auto;
-    max-width: 1920px;
-    max-height: 1080px;
+    max-width: 1800px;
+    max-height: 1020px;
 }
 #group1 .parallax__layer--landinglast{
-    width: 1660px;
+    margin-left: 100px;
+    width: 1600px;
     background-image: url(../images/bgsky.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -230,7 +234,7 @@ h1 {
 
 
 #group1 .parallax__layer--deep {
-     width: 1840px;
+     width: 1760px;
     background-image: url(../images/treebg1.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -240,7 +244,7 @@ h1 {
 
 #group1 .parallax__layer--back {
     width: 1730px;
-    background-image: url(../images/smoke1.png);
+    background-image: url(../images/treebg2.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -255,73 +259,83 @@ h1 {
 }
 
 #group1 .parallax__layer--fore {
-    width: 1770px;
-    background-image: url(../images/treebg2.png);
+    margin-left: 140px;
+    background-image: url(../images/smoke1.png);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center center;
     --webkit-transform: translateZ(-100px) scale(1.5);
     transform: translateZ(-100px) scale(1.5);
-    background-size: cover;
+    background-size: contain;
   
 }
 
 #group1 #mainbug {
     position: absolute;
-    max-width: 600px;
-    top: 10%;
-    left: 70%;   
+    max-width: 850px;
+    top: -30%;
+    left: 60%;   
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 #group1 #subbug {
     position: absolute;
     max-width: 300px;
-    top: 10%;
-    left: 20%;
+    top: 20%;
+    left: 15%;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 
-@media only screen and (min-width:100px) and(max-width:800px) {
 
-#group1 #mainbug {
-    position: absolute;
-    top: 40%;
-    left: 45%; 
-    max-width: 200px;  
-    -webkit-animation: sway 6s 0.1s infinite alternate;
-        cubic-bezier(0.455, 0.03, 0.515, 0.655);
-}
-#group1 #subbug {
-    position: absolute;
-    top: 30%;
-    left: 20%;
-    max-width: 200px;
-    -webkit-animation: sway 6s 0.1s infinite alternate;
-        cubic-bezier(0.455, 0.03, 0.515, 0.655);
-}
-
-}
-
-@media only screen and (min-width:800px) and (max-width:1100px) {
+@media only screen and (max-width:1100px) {
 #group1 {
 top: 3px;
 }
 #group1 #mainbug {
     position: absolute;
-    top: 40%;
+    top: -8%;
     left: 45%; 
-    max-width: 400px;  
+    max-width: 600px;  
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 #group1 #subbug {
     position: absolute;
-    top: 30%;
-    left: 20%;
-    max-width: 200px;
+    top: 10%;
+    left: 5%;
+    max-width: 300px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
+}
+
+#group1 .parallax__layer--back {
+    margin-top: -300px;
+    width: 1730px;
+    background-image: url(../images/treebg2.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+   
+}
+
+#group1 .parallax__layer--landinglast{
+    margin-top: -500px;
+    width: 1600px;
+    background-image: url(../images/bgsky.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#group1 .parallax__layer--fore {
+    margin-left: 50px;
+    background-image: url(../images/smoke1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    --webkit-transform: translateZ(-100px) scale(1.5);
+    transform: translateZ(-100px) scale(1.5);
+    background-size: contain;
+  
 }
 
 }
@@ -331,19 +345,30 @@ top: 3px;
 
 #group1 #mainbug {
     position: absolute;
-    top: 40%;
-    left: 70%;  
-    max-width: 500px;
+    top: 10%;
+    left: 50%;  
+    max-width: 700px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
 }
 #group1 #subbug {
     position: absolute;
-    top: 25%;
-    left: 20%;
-    max-width: 250px;
+    top: 20%;
+    left: 10%;
+    max-width: 300px;
     -webkit-animation: sway 6s 0.1s infinite alternate;
         cubic-bezier(0.455, 0.03, 0.515, 0.655);
+}
+
+#group1 .parallax__layer--fore {
+    margin-left: 0px;
+    background-image: url(../images/smoke1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    --webkit-transform: translateZ(-100px) scale(1.5);
+    transform: translateZ(-100px) scale(1.5);
+    background-size: contain;
+  
 }
 
 }
@@ -352,8 +377,8 @@ top: 3px;
     z-index: 3;
     /* slide under groups 1 and 3 */
     margin: auto;
-    max-width: 1920px;
-    max-height: 1080px;
+    max-width: 1800px;
+    max-height: 1020px;
 
 }
 
@@ -390,24 +415,15 @@ top: 3px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
 }
 
-@media only screen and (min-width:2200px) {
-#group2 .parallax__layer--base {
-    background-image: url(../images/aboutmidbg.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-
-}
-}
-
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:1023px) {
 
 #group2 {
     z-index: 3;
     /* slide under groups 1 and 3 */
+
 }
 
 #group2 .parallax__layer--fore {
@@ -422,12 +438,12 @@ top: 3px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
 
 }
 
 #group2 .parallax__layer--fore .left{
-    margin-top: 25%;
+    margin-top: 0%;
     margin-right: 0%;
 }
 
