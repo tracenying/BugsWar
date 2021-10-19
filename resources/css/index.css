@@ -37,23 +37,24 @@ div{
 
 #bwmenu a {
     font-size: 18pt;
-    color: white;
+    color: #4f2902;
     text-decoration: none;
     font-weight: 200;
+    font-family: "Garamond", Times, serif;
 }
 
-#bwmenu a:hover {
-    color: #a53e4f;
-    transition: 1s;
-}
 #topbar {
    
 }
 
 #playnow {  
-    margin-left:40%;
+ 
     width: 200px;
     height: 150px;
+    position: absolute;
+top: 50%;
+left: 50%;
+margin: -31px 0 0 -250px;
 }
 
 #playnow table{
@@ -67,7 +68,7 @@ div{
 }
 
 #playnow h1{
-    margin-top: -80px;
+    margin-top: -60px;
 }
 
 
@@ -243,7 +244,7 @@ h1 {
 
 
 #group1 .parallax__layer--deep {
-     width: 1760px;
+     width: 1700px;
     background-image: url(../images/treebg1.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -252,7 +253,7 @@ h1 {
 }
 
 #group1 .parallax__layer--back {
-    width: 1730px;
+    width: 1600px;
     background-image: url(../images/treebg2.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -274,7 +275,7 @@ h1 {
     background-position: center center;
     --webkit-transform: translateZ(-100px) scale(1.5);
     transform: translateZ(-100px) scale(1.5);
-    background-size: contain;
+    background-size: cover;
   
 }
 
@@ -426,12 +427,6 @@ h1 {
 }
 
 @media only screen and (max-width:1023px) {
-
-#group2 {
-    z-index: 3;
-    /* slide under groups 1 and 3 */
-
-}
 
 #group2 .parallax__layer--fore {
     margin: auto;
