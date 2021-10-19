@@ -283,9 +283,8 @@ h1 {
     position: absolute;
     max-width: 850px;
     top: -30%;
-    left: 60%;   
-    -webkit-animation: sway 6s 0.1s infinite alternate;
-        cubic-bezier(0.455, 0.03, 0.515, 0.655);
+    left: 50%;   
+    
 }
 #group1 #subbug {
     position: absolute;
@@ -302,10 +301,9 @@ h1 {
 #group1 #mainbug {
     position: absolute;
     top: -8%;
-    left: 45%; 
+    left: 40%; 
     max-width: 600px;  
-    -webkit-animation: sway 6s 0.1s infinite alternate;
-        cubic-bezier(0.455, 0.03, 0.515, 0.655);
+
 }
 #group1 #subbug {
     position: absolute;
@@ -354,10 +352,9 @@ h1 {
 #group1 #mainbug {
     position: absolute;
     top: 10%;
-    left: 50%;  
+    left: 38%;  
     max-width: 700px;
-    -webkit-animation: sway 6s 0.1s infinite alternate;
-        cubic-bezier(0.455, 0.03, 0.515, 0.655);
+
 }
 #group1 #subbug {
     position: absolute;
@@ -437,6 +434,11 @@ h1 {
     text-align: center;
     color: white;
      display: block;
+
+      -webkit-transform: translateZ(20px) scale(.7);
+    transform: translateZ(20px) scale(.7);
+    z-index: 1;
+
 }
 
 #group2 .parallax__layer--fore img{

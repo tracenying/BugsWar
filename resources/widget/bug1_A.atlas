@@ -1,0 +1,97 @@
+
+bug1_A.png
+size: 1955,728
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baby bug
+  rotate: true
+  xy: 1344, 349
+  size: 377, 246
+  orig: 380, 248
+  offset: 2, 1
+  index: -1
+backwings
+  rotate: true
+  xy: 1495, 24
+  size: 323, 166
+  orig: 326, 169
+  offset: 2, 2
+  index: -1
+body
+  rotate: true
+  xy: 2, 23
+  size: 703, 558
+  orig: 705, 561
+  offset: 1, 1
+  index: -1
+botarmor
+  rotate: true
+  xy: 1666, 268
+  size: 199, 209
+  orig: 201, 211
+  offset: 1, 1
+  index: -1
+frontwings
+  rotate: false
+  xy: 1121, 52
+  size: 372, 261
+  orig: 374, 263
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 562, 162
+  size: 542, 564
+  orig: 544, 566
+  offset: 1, 1
+  index: -1
+leftshoulder
+  rotate: false
+  xy: 894, 61
+  size: 225, 99
+  orig: 227, 101
+  offset: 1, 1
+  index: -1
+lefttarm
+  rotate: false
+  xy: 562, 2
+  size: 330, 158
+  orig: 332, 160
+  offset: 1, 1
+  index: -1
+leftwings
+  rotate: true
+  xy: 1592, 469
+  size: 257, 361
+  orig: 262, 363
+  offset: 1, 1
+  index: -1
+rightarm
+  rotate: false
+  xy: 1106, 315
+  size: 236, 411
+  orig: 238, 414
+  offset: 1, 2
+  index: -1
+tieleft
+  rotate: false
+  xy: 894, 18
+  size: 97, 41
+  orig: 99, 43
+  offset: 1, 1
+  index: -1
+tierigh
+  rotate: true
+  xy: 1592, 393
+  size: 74, 72
+  orig: 76, 74
+  offset: 1, 1
+  index: -1
+toparmor
+  rotate: true
+  xy: 1663, 67
+  size: 199, 163
+  orig: 201, 165
+  offset: 1, 1
+  index: -1
