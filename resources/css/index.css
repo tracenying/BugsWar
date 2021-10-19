@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background: #213c2c;
+    font-family: "Garamond", Times, serif;
 }
 div{
     padding: 0;
@@ -23,7 +24,6 @@ div{
 }
 
 #bwmenu h1 {
-   
 }
 
 #bwmenu ul {
@@ -68,7 +68,8 @@ margin: -31px 0 0 -250px;
 }
 
 #playnow h1{
-    margin-top: -60px;
+    margin-top: -70px;
+    font-size: 32px;
 }
 
 
@@ -91,14 +92,7 @@ margin: -31px 0 0 -250px;
 }
 
 
-.title h1 {
-  font-size: 28px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 1.5em;
-  padding-bottom: 15px;
-  position: relative;
-}
+
 
 
 .title-right {
@@ -113,7 +107,14 @@ margin: -31px 0 0 -250px;
 
 h1 {
     text-align: center;
-    z-index: 0;
+    font-size: 32px;
+}
+
+p {
+    text-align: center;
+    font-size: 28px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 #logo {
@@ -420,7 +421,7 @@ h1 {
 
 #group2 .parallax__layer--base img{
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
 
 }
 
