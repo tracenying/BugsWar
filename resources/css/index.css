@@ -392,9 +392,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-}
 
-#group2 .parallax__layer--fore {
     text-align: center;
     color: white;
 
@@ -402,25 +400,23 @@ h1 {
   flex-direction: row;
   justify-content: center;
 
-  -webkit-transform: translateZ(20px) scale(.7);
-    transform: translateZ(20px) scale(.7);
-    z-index: 1;
-  
+ 
 }
 
-#group2 .parallax__layer--fore .left{
+
+#group2 .parallax__layer--base .left{
 
     margin-top: 12%;
     margin-right: 10%;
 }
 
-#group2 .parallax__layer--fore .right{
+#group2 .parallax__layer--base .right{
 
     margin-top: 12%;
 }
 
-#group2 .parallax__layer--fore img{
-     display: block;
+#group2 .parallax__layer--base img{
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -429,29 +425,21 @@ h1 {
 
 @media only screen and (max-width:1023px) {
 
-#group2 .parallax__layer--fore {
+#group2 .parallax__layer--base {
     margin: auto;
     text-align: center;
     color: white;
      display: block;
-
-      -webkit-transform: translateZ(20px) scale(.7);
-    transform: translateZ(20px) scale(.7);
-    z-index: 1;
-
 }
 
-#group2 .parallax__layer--fore img{
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
+#group2 .parallax__layer--base img{
     width: 100%;
     max-width: 300px;
 
 }
 
-#group2 .parallax__layer--fore .left{
-    margin-top: 0%;
+#group2 .parallax__layer--base .left{
+    margin-top: 10%;
     margin-right: 0%;
 }
 
@@ -460,58 +448,83 @@ h1 {
 
 #group3 {
     z-index: 4;
-  
+    margin: auto;
+    max-width: 1800px;
+    max-height: 1020px;
     /* slide over group 2 and 4 */
 }
 
 #group3 .parallax__layer--base {
-    background: #31165c;
+    background-image: url(../images/aboutmidbg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 #group4 {
     z-index: 2;
     /* slide under group 3 and 5 */
+    margin: auto;
+    max-width: 1800px;
+    max-height: 1020px;
 }
 
-#group4 .parallax__layer--back {
-   background: #21165c;
-}
+
 
 #group4 .parallax__layer--base {
-
+background-image: url(../images/aboutmidbg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 
 #group5 {
     z-index: 3;
     /* slide over group 4 and 6 */
+    margin: auto;
+    max-width: 1800px;
+    max-height: 1020px;
    
 }
 
 #group5 .parallax__layer--base {
-    background: #6a27c2;
+    background-image: url(../images/aboutmidbg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
-#group5 .parallax__layer--fore {
-    
-}
+
 #group6 {
     z-index: 2;
     /* slide under group 5 and 7 */
+    margin: auto;
+    max-width: 1800px;
+    max-height: 1020px;
     
 }
 
-#group6 .parallax__layer--back {
-    background: #181663;
+#group6 .parallax__layer--base {
+    background-image: url(../images/aboutmidbg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 #group7 {
     z-index: 3;
     /* slide over group 7 */
+    margin: auto;
+    max-width: 1800px;
+    max-height: 1020px;
     
 }
 
 #group7 .parallax__layer--base {
-    background: #bf21db;
+   background-image: url(../images/aboutmidbg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 
