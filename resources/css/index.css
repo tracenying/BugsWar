@@ -393,13 +393,13 @@ p {
 
 #group2 .parallax__layer--base .left{
 
-    margin-top: 12%;
+    margin-top: 10%;
     margin-right: 10%;
 }
 
 #group2 .parallax__layer--base .right{
 
-    margin-top: 12%;
+    margin-top: 10%;
 }
 
 #group2 .parallax__layer--base img{
@@ -426,10 +426,12 @@ p {
 }
 
 #group2 .parallax__layer--base .left{
-    margin-top: 10%;
+  
     margin-right: 0%;
 }
-
+#group2 .parallax__layer--base .right{
+      margin-top: 5%;
+}
 
 }
 
