@@ -169,10 +169,11 @@ p {
     z-index: 2;
     text-align: center;
     color: white;
+    padding-top: 5%;
 }
 
 .parallax__layer--base h1{
-    margin-top: 5%;
+   
 }
 
 .parallax__layer--back {
