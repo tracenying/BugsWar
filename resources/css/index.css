@@ -268,15 +268,11 @@ h1 {
     background-size: cover;
 }
 
+
 #group1 .parallax__layer--fore {
     margin-left: 140px;
-    background-image: url(../images/smoke1.png);
-    background-repeat: no-repeat;
-    background-position: center center;
     --webkit-transform: translateZ(-100px) scale(1.5);
-    transform: translateZ(-100px) scale(1.5);
-    background-size: cover;
-  
+    transform: translateZ(-100px) scale(1.5);  
 }
 
 #group1 #mainbug {
@@ -335,13 +331,8 @@ h1 {
 
 #group1 .parallax__layer--fore {
     margin-left: 50px;
-    background-image: url(../images/smoke1.png);
-    background-repeat: no-repeat;
-    background-position: center center;
     --webkit-transform: translateZ(-100px) scale(1.5);
     transform: translateZ(-100px) scale(1.5);
-    background-size: contain;
-  
 }
 
 }
@@ -367,13 +358,8 @@ h1 {
 
 #group1 .parallax__layer--fore {
     margin-left: 0px;
-    background-image: url(../images/smoke1.png);
-    background-repeat: no-repeat;
-    background-position: center center;
     --webkit-transform: translateZ(-100px) scale(1.5);
     transform: translateZ(-100px) scale(1.5);
-    background-size: contain;
-  
 }
 
 }
